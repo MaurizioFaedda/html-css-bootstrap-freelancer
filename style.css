@@ -17,6 +17,11 @@ h1{
     font-size: 3em;
 }
 
+h4 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
 a.navbar-brand {
     font-size: 1em;
 }
@@ -53,12 +58,12 @@ p {
     color: #2d3e50;
 }
 
-.navbar.navbar-default {
+.navbar.navbar-default, footer {
     background-color: #2d3e50;
 }
 
 .navbar-default .navbar-brand,
-.navbar-default .navbar-nav>li>a {
+.navbar-default .navbar-nav>li>a, footer {
     color: #fff;
 }
 
@@ -156,6 +161,16 @@ form {
     box-shadow: none;
 }
 
+footer {
+    padding: 60px 0;
+}
+
+.p-foot {
+    font-weight: 100;
+    padding: 30px;
+    font-size: 18px;
+}
+
 #btn-send {
     background-color: #1bbc9b;
     color: #fff;
@@ -164,6 +179,16 @@ form {
 }
 
 #btn-send:hover {
+    background-color: #159a80;
+}
+
+.p-foot>a {
+    color: #1bbc9b;
+}
+
+
+
+.p-foot>a:hover {
     background-color: #159a80;
 }
 
